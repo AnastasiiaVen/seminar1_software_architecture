@@ -32,8 +32,12 @@ public class Flash {
         this.power = power;
     }
 
-    public static void Rotate(Angle3D angle3D){}
+    public static void Rotate(Angle3D angle3D){
+        this.angle = angle3D;
+    }
 
-    public static void Move(Point3D point3D){}
+    public static void Move(Point3D point3D){
+        this.location = point3D;
+    }
 
 }
